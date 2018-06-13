@@ -40,9 +40,11 @@
   border-style: none;
   background-color: $color-orange;
   margin: auto;
-  margin-top: 45px;
+  margin-top: 22.5px;
   margin-bottom: 60px;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .arriba {

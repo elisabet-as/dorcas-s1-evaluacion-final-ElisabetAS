@@ -37,9 +37,15 @@
   border-style: none;
   background-color: #f26002;
   margin: auto;
-  margin-top: 45px;
+  margin-top: 22.5px;
   margin-bottom: 60px;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .arriba {
@@ -227,7 +233,7 @@
   margin-bottom: 45px;
 }
 
-.reasons {
+.grids {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -248,6 +254,19 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  margin-bottom: 45px;
+}
+
+.reasonrest {
+  margin: 0px;
+}
+
+.sub2 {
+  width: 290px;
+  text-align: center;
+  margin-left: 15px;
+  padding-top: 30px;
+  margin-bottom: 45px;
 }
 
 .minititles {
