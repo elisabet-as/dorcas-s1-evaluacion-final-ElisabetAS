@@ -1,3 +1,9 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
 .tip1 {
   width: 90px;
   margin-top: 30px;
