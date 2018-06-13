@@ -1,0 +1,78 @@
+.hero {
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc;
+  border-style: none;
+}
+
+.flecha {
+  width: 45px;
+  height: 45px;
+  border-style: none;
+  border-radius: 22.5px;
+  background-color: #ffffff;
+}
+
+.go {
+  width: 76px;
+  height: 45px;
+  border-radius: 22.5px;
+  border-style: none;
+  border: solid 2px #f26002;
+  background-color: #ffffff;
+}
+
+.more {
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  border-style: none;
+  background-color: #f26002;
+}
+
+.arriba {
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  border-style: none;
+  background-color: #ffffff;
+}
+
+.enlace {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map */

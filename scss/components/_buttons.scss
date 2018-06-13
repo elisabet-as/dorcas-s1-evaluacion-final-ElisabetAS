@@ -1,0 +1,47 @@
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc;
+  border-style: none;
+}
+
+.flecha {
+  width: 45px;
+  height: 45px;
+  border-style: none;
+  border-radius: 22.5px;
+  background-color: #ffffff;
+}
+
+.go {
+  width: 76px;
+  height: 45px;
+  border-radius: 22.5px;
+  border-style: none;
+  border: solid 2px #f26002;
+  background-color: #ffffff;
+}
+
+.more {
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  border-style: none;
+  background-color: #f26002;
+}
+
+.arriba {
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  border-style: none;
+  background-color: #ffffff;
+}
+
+.enlace {
+text-decoration: none;
+}
