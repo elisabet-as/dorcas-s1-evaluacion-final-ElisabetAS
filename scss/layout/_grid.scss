@@ -1,0 +1,21 @@
+.reasons {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 105px 138px 138px 138px 150px;
+text-align: center;
+}
+.reason {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.minititles {
+width: 184px;
+}
+
+.pafito {
+width: 180px;
+height: 63px;
+}

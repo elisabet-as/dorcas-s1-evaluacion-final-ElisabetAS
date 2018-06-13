@@ -1,2 +1,12 @@
+.reasons {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  border: 2px solid black;
+}
+
+.reason {
+  border: solid 1px black;
+}
 
 /*# sourceMappingURL=grid.css.map */

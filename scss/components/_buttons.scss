@@ -25,6 +25,12 @@
   border-style: none;
   border: solid 2px $color-orange;
   background-color: $color-white;
+  margin-left: 15px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+// &:hover {
+// color: $color-orange;
+// }
 }
 
 .more {
@@ -33,6 +39,10 @@
   border-radius: 22.5px;
   border-style: none;
   background-color: $color-orange;
+  margin: auto;
+  margin-top: 45px;
+  margin-bottom: 60px;
+  text-align: center;
 }
 
 .arriba {
@@ -41,4 +51,7 @@
   border-radius: 22.5px;
   border-style: none;
   background-color: $color-white;
+  box-shadow: 0px 2px 4px 0px $color-greyvampire;
+  position: absolute;
+  top: -20px;
 }

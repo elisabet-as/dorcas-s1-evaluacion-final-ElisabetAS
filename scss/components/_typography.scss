@@ -2,9 +2,18 @@
 .enlace {
 text-decoration: none;
 font-family: $fontfamily-buttons;
+font-weight: $fontweight-buttons;
 font-size: 20px;
+text-align: center;
 }
 
+.textbgo {
+  color: $color-orange;
+}
+
+.textbmore {
+  color: $color-white;
+}
 //HERO
 .titulo {
 color: $color-white;
@@ -21,4 +30,56 @@ font-family: $fontfamily-parrafos;
 font-weight: $fontweight-parrafos;
 font-size: 16px;
 text-align: center;
+}
+
+//MAIN
+.tip1 {
+color: $color-sky;
+font-family: $fontfamily-parrafos;
+font-weight: $fontweight-parrafos;
+font-size: 14px;
+line-height: 30px;
+}
+
+.subtitulo {
+color: $color-black;
+font-family: $fontfamily-titles;
+font-weight: $fontweight-titles;
+font-size: 24px;
+}
+
+.pmargi {
+color: $color-greyvampire;
+font-family: $fontfamily-parrafos;
+font-weight: $fontweight-parrafos;
+font-size: 18px;
+line-height: 30px;
+}
+
+.minititles {
+color: $color-black;
+font-family: $fontfamily-titles;
+font-weight: $fontweight-titles;
+font-size: 18px;
+line-height: 30px;
+}
+
+.pafito {
+color: $color-black;
+font-family: $fontfamily-parrafos;
+font-weight: $fontweight-parrafos;
+font-size: 18px;
+line-height: 30px;
+}
+//FOOTER
+.tips {
+text-align: center;
+color: $color-white;
+font-family: $fontfamily-parrafos;
+font-weight: $fontweight-parrafos;
+font-size: 14px;
+}
+
+.corason {
+color: $color-orange;
 }
