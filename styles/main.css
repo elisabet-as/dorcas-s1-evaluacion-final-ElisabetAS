@@ -230,7 +230,7 @@
 .reasons {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 105px 138px 138px 138px 150px;
+  grid-template-rows: 1fr 1fr 1fr;
   text-align: center;
 }
 
