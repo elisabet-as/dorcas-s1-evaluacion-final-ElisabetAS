@@ -1,0 +1,24 @@
+//BOTONES
+.enlace {
+text-decoration: none;
+font-family: $fontfamily-buttons;
+font-size: 20px;
+}
+
+//HERO
+.titulo {
+color: $color-white;
+font-family: $fontfamily-titles;
+font-weight: $fontweight-titles;
+font-size: 42px;
+text-transform: uppercase;
+text-align: center;
+}
+
+.claim {
+color: $color-white;
+font-family: $fontfamily-parrafos;
+font-weight: $fontweight-parrafos;
+font-size: 16px;
+text-align: center;
+}

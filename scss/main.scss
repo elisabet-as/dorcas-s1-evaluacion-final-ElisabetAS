@@ -1,4 +1,11 @@
-@import 'components/header.scss';
+//CORE
+@import 'core/variables.scss';
+//COMPONENTS
 @import 'components/buttons.scss';
+@import 'components/typography.scss';
+//LAYOUT
 @import 'layout/footer.scss';
 @import 'layout/base.scss';
+@import 'layout/header.scss';
+//PAGES
+@import 'pages/home.scss'

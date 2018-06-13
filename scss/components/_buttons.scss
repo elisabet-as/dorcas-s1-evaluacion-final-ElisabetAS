@@ -5,7 +5,7 @@
   position: fixed;
   width: 44px;
   height: 44px;
-  background-color: #0271bc;
+  background-color: $color-blue;
   border-style: none;
 }
 
@@ -14,7 +14,8 @@
   height: 45px;
   border-style: none;
   border-radius: 22.5px;
-  background-color: #ffffff;
+  background-color: $color-white;
+  margin-bottom: 53px;
 }
 
 .go {
@@ -22,8 +23,8 @@
   height: 45px;
   border-radius: 22.5px;
   border-style: none;
-  border: solid 2px #f26002;
-  background-color: #ffffff;
+  border: solid 2px $color-orange;
+  background-color: $color-white;
 }
 
 .more {
@@ -31,7 +32,7 @@
   height: 45px;
   border-radius: 22.5px;
   border-style: none;
-  background-color: #f26002;
+  background-color: $color-orange;
 }
 
 .arriba {
@@ -39,9 +40,5 @@
   height: 45px;
   border-radius: 22.5px;
   border-style: none;
-  background-color: #ffffff;
-}
-
-.enlace {
-text-decoration: none;
+  background-color: $color-white;
 }
