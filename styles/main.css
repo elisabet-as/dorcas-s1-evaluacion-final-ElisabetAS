@@ -116,6 +116,15 @@
   top: -20px;
 }
 
+.arriba:hover {
+  -webkit-animation-name: arrow;
+  animation-name: arrow;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
 .enlace {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
@@ -606,6 +615,30 @@ body {
   .p3 {
     margin-left: 26px;
     margin-right: 85px;
+  }
+}
+
+@-webkit-keyframes arrow {
+  from {
+    -webkit-transform: scale(3) rotate(-150deg);
+    transform: scale(3) rotate(-150deg);
+  }
+
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes arrow {
+  from {
+    -webkit-transform: scale(3) rotate(-150deg);
+    transform: scale(3) rotate(-150deg);
+  }
+
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
 

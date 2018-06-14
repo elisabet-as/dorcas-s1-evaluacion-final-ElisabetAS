@@ -78,8 +78,20 @@
   align-items: center;
   position: absolute;
   top: -20px;
+  &:hover {
+    animation-name: arrow;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    @keyframes arrow {
+      from {
+        transform: scale(3) rotate(-150deg);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+  }
 }
-
 @media all and (min-width:768px) {
   .flecha {
     margin-bottom: 45px;
