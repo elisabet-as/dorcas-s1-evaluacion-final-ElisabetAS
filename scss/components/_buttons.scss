@@ -36,10 +36,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: $color-orange;
   background-color: $color-white;
-  transition: background-color ease 2s;
+  transition: color ease 2s, background-color ease 2s;
   &:hover {
-    background-color: $color-orange-hover;
+    background-color: $color-orange-hover; color: $color-white-hover;
   }
 }
 
@@ -49,16 +50,18 @@
   height: 45px;
   border-radius: 22.5px;
   background-color: $color-orange;
+  color: $color-white;
   margin: auto;
   margin-bottom: 60px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-color, border ease 2s;
+  transition: color ease 2s, background-color ease 2s, border ease 2s;
   &:hover {
     background-color: $color-white-hover;
     border: solid $color-orange-hover 2px;
+    color: $color-orange-hover;
   }
 }
 
@@ -88,7 +91,7 @@
   }
   .more {
     width: 210px;
-    margin-top: 60px;
+    margin-top: 0px;
   }
 }
 @media all and (min-width:1280px) {

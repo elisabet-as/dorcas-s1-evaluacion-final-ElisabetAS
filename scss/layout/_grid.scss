@@ -1,55 +1,35 @@
-.reason {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 45px;
-}
-
-.minititles {
-  width: 184px;
-}
-
-.pafito {
-  width: 180px;
-  height: 63px;
-}
-
 @media all and (min-width:768px) {
   .reasons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 75px 157px 165px;
-    grid-template-areas: "sub sub sub" "r1 r2 r3" "boton boton boton"
+    grid-template-rows: 75px 217px 105px;
+    grid-template-areas: "sub sub sub" "r1 r2 r3" "boton boton boton";
   }
 
   .sub2 {
     grid-area: sub;
-    margin-top: 0px;
-}
+  }
 
   .r1 {
     grid-area: r1;
-}
+  }
   .r2 {
     grid-area: r2;
-}
+  }
   .r3 {
     grid-area: r3;
-}
+  }
   .more {
     grid-area: boton;
-}
+  }
   .reason {
     margin: 0;
-}
-
-  .minititles {
-    width: 210px;
-    margin-bottom: 14px;
-    margin-top: 45px;
   }
-  .pafito {
-    width: 212.3px;
-    height: 68px;
+}
+@media all and (min-width:1280px) {
+  .reasons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 105px 208px 105px;
   }
 }

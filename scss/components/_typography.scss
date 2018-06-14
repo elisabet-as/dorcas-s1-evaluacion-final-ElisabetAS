@@ -7,21 +7,6 @@
   text-align: center;
 }
 
-.textbgo {
-  color: $color-orange;
-  transition: color ease 2s;
-  &:hover {
-    color: $color-white-hover;
-  }
-}
-
-.textbmore {
-  color: $color-white;
-  transition: color ease 2s;
-  &:hover {
-    color: $color-orange-hover;
-  }
-}
 //HEADER
 .titulo {
   color: $color-white;
