@@ -54,6 +54,13 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #ffffff;
+  -webkit-transition: background-color ease 2s;
+  transition: background-color ease 2s;
+}
+
+.go:hover {
+  background-color: #f26002;
 }
 
 .more {
@@ -63,7 +70,6 @@
   border-radius: 22.5px;
   background-color: #f26002;
   margin: auto;
-  margin-top: 22.5px;
   margin-bottom: 60px;
   text-align: center;
   display: -webkit-box;
@@ -75,6 +81,13 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-transition: background-color, border ease 2s;
+  transition: background-color, border ease 2s;
+}
+
+.more:hover {
+  background-color: #ffffff;
+  border: solid #f26002 2px;
 }
 
 .arriba {
@@ -109,10 +122,22 @@
 
 .textbgo {
   color: #f26002;
+  -webkit-transition: color ease 2s;
+  transition: color ease 2s;
+}
+
+.textbgo:hover {
+  color: #ffffff;
 }
 
 .textbmore {
   color: #ffffff;
+  -webkit-transition: color ease 2s;
+  transition: color ease 2s;
+}
+
+.textbmore:hover {
+  color: #f26002;
 }
 
 .titulo {
@@ -153,6 +178,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+}
+
+.reason {
+  text-align: center;
 }
 
 .minititles {
@@ -222,6 +251,7 @@
 }
 
 body {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -282,13 +312,6 @@ body {
   margin-bottom: 45px;
 }
 
-.grids {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  text-align: center;
-}
-
 .reason {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -300,14 +323,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   margin-bottom: 45px;
-}
-
-.reasonrest {
-  margin: 0px;
 }
 
 .minititles {
@@ -358,8 +374,7 @@ body {
 .sub2 {
   width: 290px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding-top: 30px;
   margin-bottom: 45px;
 }
@@ -428,11 +443,32 @@ body {
     margin-bottom: 30px;
   }
 
-  .grids {
+  .reasons {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin-left: 35.7px;
-    margin-right: 40px;
+    grid-template-rows: 75px 157px 165px;
+    grid-template-areas: "sub sub sub" "r1 r2 r3" "boton boton boton";
+  }
+
+  .sub2 {
+    grid-area: sub;
+    margin-top: 0px;
+  }
+
+  .r1 {
+    grid-area: r1;
+  }
+
+  .r2 {
+    grid-area: r2;
+  }
+
+  .r3 {
+    grid-area: r3;
+  }
+
+  .more {
+    grid-area: boton;
   }
 
   .reason {
@@ -442,6 +478,7 @@ body {
   .minititles {
     width: 210px;
     margin-bottom: 14px;
+    margin-top: 45px;
   }
 
   .pafito {
@@ -477,8 +514,25 @@ body {
     margin-bottom: 13px;
   }
 
+  .go {
+    width: 160px;
+    margin-left: 275px;
+  }
+
+  .more {
+    width: 255px;
+  }
+
   .titulo {
     font-size: 100px;
+  }
+
+  .tip1 {
+    font-size: 16px;
+  }
+
+  .subtitulo {
+    font-size: 32px;
   }
 
   .copy {
@@ -497,6 +551,22 @@ body {
 
   .claim {
     width: 730px;
+  }
+
+  .tip1 {
+    width: 360px;
+    margin-top: 60px;
+    margin-left: 275px;
+  }
+
+  .sub1 {
+    width: 730px;
+    margin-left: 275px;
+  }
+
+  .pmargi {
+    width: 730px;
+    margin-left: 275px;
   }
 }
 

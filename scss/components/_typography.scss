@@ -9,10 +9,18 @@
 
 .textbgo {
   color: $color-orange;
+  transition: color ease 2s;
+  &:hover {
+    color: $color-white-hover;
+  }
 }
 
 .textbmore {
   color: $color-white;
+  transition: color ease 2s;
+  &:hover {
+    color: $color-orange-hover;
+  }
 }
 //HEADER
 .titulo {
@@ -70,6 +78,9 @@
   line-height: 30px;
 }
 
+.reason {
+  text-align: center;
+}
 .minititles {
   color: $color-black;
   font-family: $fontfamily-titles;
@@ -98,6 +109,15 @@
   }
   .pafito {
     font-size: 20px;
+  }
+}
+
+@media all and (min-width:1280px) {
+  .tip1 {
+    font-size: 16px;
+  }
+  .subtitulo {
+    font-size: 32px;
   }
 }
 //FOOTER

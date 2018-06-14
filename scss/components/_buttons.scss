@@ -36,6 +36,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: $color-white;
+  transition: background-color ease 2s;
+  &:hover {
+    background-color: $color-orange-hover;
+  }
 }
 
 .more {
@@ -45,12 +50,16 @@
   border-radius: 22.5px;
   background-color: $color-orange;
   margin: auto;
-  margin-top: 22.5px;
   margin-bottom: 60px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color, border ease 2s;
+  &:hover {
+    background-color: $color-white-hover;
+    border: solid $color-orange-hover 2px;
+  }
 }
 
 .arriba {
@@ -85,5 +94,12 @@
 @media all and (min-width:1280px) {
   .flecha {
     margin-bottom: 13px;
+  }
+  .go {
+    width: 160px;
+    margin-left: 275px;
+  }
+  .more {
+    width: 255px;
   }
 }

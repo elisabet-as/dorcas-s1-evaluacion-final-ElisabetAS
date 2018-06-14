@@ -30,8 +30,7 @@
 .sub2 {
   width: 290px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding-top: 30px;
   margin-bottom: 45px;
 }
@@ -54,5 +53,21 @@
 }
   .sub2 {
     width: 450px;
+}
+}
+
+@media all and (min-width:1280px) {
+  .tip1 {
+    width: 360px;
+    margin-top: 60px;
+    margin-left: 275px;
+}
+  .sub1 {
+    width: 730px;
+    margin-left: 275px;
+}
+  .pmargi {
+    width: 730px;
+    margin-left: 275px;
 }
 }
