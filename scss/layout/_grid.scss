@@ -5,15 +5,6 @@
   text-align: center;
 }
 
-.sub2 {
-  width: 290px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 30px;
-  margin-bottom: 45px;
-}
-
 .reason {
   display: flex;
   flex-direction: column;
@@ -33,4 +24,24 @@
 .pafito {
   width: 180px;
   height: 63px;
+}
+
+@media all and (min-width:768px) {
+  .grids {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 35.7px;
+    margin-right: 40px;
+  }
+  .reason {
+    margin: 0;
+  }
+  .minititles {
+    width: 210px;
+    margin-bottom: 14px;
+  }
+  .pafito {
+    width: 212.3px;
+    height: 68px;
+  }
 }

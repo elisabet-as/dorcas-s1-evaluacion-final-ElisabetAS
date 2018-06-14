@@ -30,3 +30,31 @@
   height: 21px;
   margin-bottom: 45px;
 }
+
+@media all and (min-width:768px) {
+  .contenthero {
+    height: 384px;
+  }
+  .titulo {
+    width: 690px;
+    height: 212px;
+    margin-bottom: 20px;
+  }
+
+  .claim {
+    width: 360px;
+    height: 32px;
+    margin-bottom: 30px;
+  }
+}
+
+@media all and (min-width:1280px) {
+  .titulo {
+    width: 730px;
+    height: 264px;
+    margin-bottom: 0px;
+  }
+  .claim {
+    width: 730px;
+  }
+}

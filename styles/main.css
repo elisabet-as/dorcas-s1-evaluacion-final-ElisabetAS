@@ -289,15 +289,6 @@ body {
   text-align: center;
 }
 
-.sub2 {
-  width: 290px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 30px;
-  margin-bottom: 45px;
-}
-
 .reason {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -362,6 +353,151 @@ body {
 
 .reasons {
   background-color: #eff9ff;
+}
+
+.sub2 {
+  width: 290px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  margin-bottom: 45px;
+}
+
+@media all and (min-width: 768px) {
+  .flecha {
+    margin-bottom: 45px;
+  }
+
+  .go {
+    width: 91px;
+    margin-left: 39px;
+    margin-bottom: 60px;
+  }
+
+  .more {
+    width: 210px;
+    margin-top: 60px;
+  }
+
+  .titulo {
+    font-size: 80px;
+  }
+
+  .claim {
+    font-size: 24px;
+  }
+
+  .subtitulo {
+    font-size: 26px;
+  }
+
+  .pmargi {
+    font-size: 20px;
+  }
+
+  .minititles {
+    font-size: 24px;
+  }
+
+  .pafito {
+    font-size: 20px;
+  }
+
+  .copy {
+    width: 185px;
+  }
+
+  .love {
+    width: 696px;
+  }
+
+  .contenthero {
+    height: 384px;
+  }
+
+  .titulo {
+    width: 690px;
+    height: 212px;
+    margin-bottom: 20px;
+  }
+
+  .claim {
+    width: 360px;
+    height: 32px;
+    margin-bottom: 30px;
+  }
+
+  .grids {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 35.7px;
+    margin-right: 40px;
+  }
+
+  .reason {
+    margin: 0;
+  }
+
+  .minititles {
+    width: 210px;
+    margin-bottom: 14px;
+  }
+
+  .pafito {
+    width: 212.3px;
+    height: 68px;
+  }
+
+  .tip1 {
+    width: 216px;
+    margin-left: 39px;
+  }
+
+  .sub1 {
+    width: 690px;
+    height: 45px;
+    margin-left: 39px;
+    margin-bottom: 30px;
+  }
+
+  .pmargi {
+    width: 690px;
+    height: 60px;
+    margin-left: 39px;
+  }
+
+  .sub2 {
+    width: 450px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .flecha {
+    margin-bottom: 13px;
+  }
+
+  .titulo {
+    font-size: 100px;
+  }
+
+  .copy {
+    width: 308px;
+  }
+
+  .love {
+    width: 1160px;
+  }
+
+  .titulo {
+    width: 730px;
+    height: 264px;
+    margin-bottom: 0px;
+  }
+
+  .claim {
+    width: 730px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

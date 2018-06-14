@@ -67,3 +67,23 @@
   position: absolute;
   top: -20px;
 }
+
+@media all and (min-width:768px) {
+  .flecha {
+    margin-bottom: 45px;
+  }
+  .go {
+    width: 91px;
+    margin-left: 39px;
+    margin-bottom: 60px;
+  }
+  .more {
+    width: 210px;
+    margin-top: 60px;
+  }
+}
+@media all and (min-width:1280px) {
+  .flecha {
+    margin-bottom: 13px;
+  }
+}

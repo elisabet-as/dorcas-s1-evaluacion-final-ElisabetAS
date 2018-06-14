@@ -14,7 +14,7 @@
 .textbmore {
   color: $color-white;
 }
-//HERO
+//HEADER
 .titulo {
   color: $color-white;
   font-family: $fontfamily-titles;
@@ -32,6 +32,20 @@
   text-align: center;
 }
 
+@media all and (min-width:768px) {
+  .titulo {
+    font-size: 80px;
+  }
+  .claim {
+    font-size: 24px;
+  }
+}
+
+@media all and (min-width:1280px) {
+  .titulo {
+    font-size: 100px;
+  }
+}
 //MAIN
 .tip1 {
   color: $color-sky;
@@ -70,6 +84,21 @@
   font-weight: $fontweight-parrafos;
   font-size: 18px;
   line-height: 30px;
+}
+
+@media all and (min-width:768px) {
+  .subtitulo {
+    font-size: 26px;
+  }
+  .pmargi {
+    font-size: 20px;
+  }
+  .minititles {
+    font-size: 24px;
+  }
+  .pafito {
+    font-size: 20px;
+  }
 }
 //FOOTER
 .tips {

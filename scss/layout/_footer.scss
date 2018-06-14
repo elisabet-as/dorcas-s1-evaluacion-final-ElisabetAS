@@ -19,3 +19,20 @@
   height: 30px;
   margin-bottom: 30px;
 }
+
+@media all and (min-width:768px) {
+  .copy {
+    width: 185px;
+  }
+  .love {
+    width: 696px;
+  }
+}
+@media all and (min-width:1280px) {
+  .copy {
+    width: 308px;
+  }
+  .love {
+    width: 1160px;
+  }
+}
