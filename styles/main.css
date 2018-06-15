@@ -318,6 +318,22 @@ body {
   flex-grow: 1;
 }
 
+.anonymous {
+  background-color: #f26002;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .tip1 {
   margin-top: 30px;
   margin-left: 15px;
@@ -458,6 +474,10 @@ body {
 
   .reason {
     margin: 0;
+  }
+
+  .anonymous {
+    background-color: #304268;
   }
 
   .tip1 {

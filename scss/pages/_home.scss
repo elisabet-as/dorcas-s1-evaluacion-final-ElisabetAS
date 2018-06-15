@@ -4,6 +4,16 @@
   flex-grow: 1;
 }
 
+.anonymous {
+  background-color: $color-orange;
+  color: $color-white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .tip1 {
   margin-top: 30px;
   margin-left: 15px;
@@ -45,6 +55,9 @@
 }
 
 @media all and (min-width:768px) {
+  .anonymous {
+    background-color: $color-ocean;
+  }
   .tip1 {
     margin-left: 39px;
     margin-right: 39px;
